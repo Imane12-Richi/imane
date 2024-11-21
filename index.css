@@ -1,0 +1,18 @@
+body {
+    background-color: white; /*
+    Couleur de fond de la page */
+    font-family: Arial, sans-serif; /*
+    Police du texte */
+    }
+    h1 {
+    color: green; /* Couleur du texte du
+    titre */
+    titre */
+    text-align: center; /* Centrer le
+    }
+    p {
+    color: darkblue; /* Couleur du texte
+    du paragraphe */
+    font-size: 20px; /* Taille de la 
+    police du paragraphe */
+    }
