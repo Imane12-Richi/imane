@@ -1,0 +1,103 @@
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Styles pour l'en-tête */
+  header {
+    background-color: #5b3a20; /* Couleur marron pour l'en-tête */
+    color: white;
+    padding: 20px;/* partie marron lfo9 l3ard dylha */
+    position: relative;
+  }
+  
+  /* Icône de menu trois ligne */
+  .menu {
+    position: absolute; /* hit li khalet trois line f jenb ibano */
+    top: 20px;
+    right: 20px; /*  fin exct ikon les trois ligne de button    */
+    font-size:25px;/*la taille dyel les lignes(des tirers)*/
+    
+  }
+  
+  /* Styles pour le menu de navigation */
+  nav {
+    background-color: #eee7e7;/* l'arriere plan de partie  : Nos ouvertures, L'actu Ricci,Besoin d'inspiration ?,FAQ   */
+    padding: 20px 0;/*taille de l'arriere plan mn ltaht*/
+  }
+  
+  nav ul { 
+    list-style-type:none/*les expression hda ba3diyathom lfo9*/
+    margin: 0; /*supprimer la marge par defaut*/
+    padding: 400;/* espace autour de contenu lwast*/
+    display:flex;/*ligne horizontal mahtotin  Hda ba3diyathom*/
+    justify-content: center;/*Nos ouvertures, L'actu Ricci,Besoin d'inspiration ?,FAQ  ijiw f centre*/
+    gap: 30px;/*    l'espace entre  nos ouvertures et ....  */
+  }
+  
+  nav ul li {
+    display: inline;/*pour ne sautte pas la ligne */
+  }
+  
+   nav ul li a {  
+    text-decoration: none;
+    color: #5b3a20; /* Couleur marron pour les liens */
+    font-weight:bold; /*la police de ecriture des liens*/
+  }
+  
+  /* Styles pour le conteneur d'image */
+  .image-container {
+    border: 10px solid #5b3a20; /* bordure de cadre */
+    padding: 0x;               
+    display: inline-block;       /* l'espace entre l image et le cadre*/
+    margin: 20px auto;           /* Centre le conteneur sur la page  image tal3a ola nazla*/
+    max-width: 100%;              /* Limite la largeur maximale */
+  }
+  
+  .image-container img {
+    max-width: 100%;             /* l'image compatible avec le telephone*/
+    height: auto ;
+  }
+  
+  /* Styles pour le titre principal */
+  main h2 {
+    color: #5b3a20; /* Couleur marron pour le titre */
+    margin-top: 20px; /*l'espace entre l image et le titre marron en bas */
+  }
+  
+  /* Styles pour le pied de page */
+  footer {
+    background-color: #5b3a20;/*arriere plan */
+    color: white;
+    padding: 10px 0; /*la taille de cadre marron en bas*/  
+    margin-top: 10px; /*l espace entre le cadre en bas et h2*/
+  }
+  
+  footer p {
+    margin: 20px 0; /*l espace entre suivi nous et facebook insta*/
+  }
+  
+  .social-media {
+    padding: 0; 
+    display: flex; /*espace entre les reseaux sociaux*/
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .social-media li {
+    display: inline;
+  }
+  
+  .social-media li a {
+    color: white;
+    
+  }
+  
+
+
+        
+     
+  
